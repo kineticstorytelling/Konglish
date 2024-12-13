@@ -138,8 +138,8 @@ formal vs informal speech.
   },
   {
    id: 4,  // increment from the last post's ID
-   title: "Bit off more than I can chew",
-   excerpt: "A brief summary of your post",
+   title: "Bit off more than I can chew and Eyes bigger than your stomach",
+   excerpt: "explanation and examples of popular American idioms",
    content: `
 # Your Title Here
 
