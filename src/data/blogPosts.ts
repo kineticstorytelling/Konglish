@@ -141,14 +141,15 @@ formal vs informal speech.
    title: "Bit off more than I can chew and Eyes bigger than your stomach",
    excerpt: "explanation and examples of popular American idioms",
    content: `
-# Your Title Here
+# Bit off more than I can chew - Idioms Explained
 
 Your content here. You can use Markdown features like:
 
 ## Subheadings
 
-- Bullet points
-- Another point
+Welcome to my series, Idioms Explained: An Explanation of American Phrases and Sayings. This is a series in which I go through different popular idioms used by American people in everyday conversation.
+
+Today’s sayings are, **I bit off more than I can chew** and **your eyes are bigger than your stomach**. 
 
 1. Numbered lists
 2. Second item
@@ -162,13 +163,10 @@ Your content here. You can use Markdown features like:
 const example = "Hello World";
 \`\`\`
 
-| Tables | Are | Cool |
-|--------|-----|------|
-| Data   | Goes| Here |
    `,
    date: "2024-12-13",  // Today's date
    readTime: "X min read",
    slug: "your-title-here",  // URL-friendly version of your title
-   author: "Your Name"
+   author: "Luke Nam"
 }
 ];
