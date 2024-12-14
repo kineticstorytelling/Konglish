@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import AnimatedTitle from '@/components/AnimatedTitle'
 
 export default function Home() {
   const featuredPosts = [
@@ -29,7 +30,7 @@ export default function Home() {
     <div className="space-y-12">
       {/* Hero Section */}
       <section className="text-center py-12">
-        <h1 className="text-5xl font-bold mb-4">Welcome to my Blog</h1>
+        <AnimatedTitle />
         <p className="text-xl text-gray-600 mb-8">
           Exploring the latest in technology, development, and innovation
         </p>
