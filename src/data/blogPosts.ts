@@ -141,20 +141,34 @@ formal vs informal speech.
    title: "Bit off more than I can chew and Eyes bigger than your stomach",
    excerpt: "explanation and examples of popular American idioms",
    content: `
-# Bit off more than I can chew - Idioms Explained
-
-Your content here. You can use Markdown features like:
-
-## Subheadings
 
 Welcome to my series, Idioms Explained: An Explanation of American Phrases and Sayings. This is a series in which I go through different popular idioms used by American people in everyday conversation.
 
 Today’s sayings are, **I bit off more than I can chew** and **your eyes are bigger than your stomach**. 
+Imagine there is a large tasty-looking hamburger. You are really hungry and you have not eaten all day. That burger looks so delicious. Your mouth is watering and you can’t wait to take a bite. You grab the burger and take a huge bite. It’s such a big bite that your mouth is completely full, almost too full. You have so much in your mouth that you struggle to chew it all. Oh no! You can’t chew it all and swallow. You are forced to spit out some of it. Gross.
+That is where the phrase comes from. When children would be eager to eat and take large mouthfuls of food that they struggle to swallow, adults would tell them to slow down and take their time. 
+This is the case when it comes to decisions we make. When you try to do too much or when you make promises you can not keep, you are biting off more than you can chew. You are doing more than you have enough time and energy to do. This can lead to failing to finish what you set out to do or doing your work poorly. Here are a few examples:
 
-1. Numbered lists
-2. Second item
+“I got a promotion at work but I now have to work on multiple projects. I think I bit off more than I can chew…”
 
-**Bold text** and *italic text*
+“You don’t have time for that John! You bit off more than you can chew.”
+
+“Don’t say yes to that request Jane. Don’t bite off more than you can chew.”
+
+There is a similar idiom that means you wanted more than you can handle: “his eyes are bigger than his stomach”. Just like in that first example, when someone is really hungry, they want to eat a lot, so they take more than they can actually eat. The difference between this phrase and the first one is that the person takes more than they can eat and not more than they can chew. Instead of it being one hamburger that they stuff into their mouth, it is a plate of hamburgers that they will not be able to finish because they are full. Literally your eye size is bigger than your stomach size. 
+
+That is exactly what the phrase means; to take more than you can handle because you want too much.
+
+Here are some examples:
+
+“You have all these board games that you don’t play with. Were your eyes bigger than your stomach?”
+
+“He always gets too much food. His eyes are bigger than his stomach.”
+
+“You’re never going to finish these projects John! I told you from the beginning, your eyes are bigger than your stomach.”
+
+As with most idioms, the literal phrase is changed to figurative and we say this to describe something a person did.
+
 
 > Blockquotes for important points
 
