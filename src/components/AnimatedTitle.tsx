@@ -7,77 +7,102 @@ export default function AnimatedTitle() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      if (step < 3) {
+      if (step < 4) {
         setStep(step + 1);
       }
-    }, 1000);
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, [step]);
 
   return (
-    <div className="relative h-24 flex items-center justify-center overflow-hidden">
+    <div className="relative h-24 flex justify-center items-center">
       <AnimatePresence mode="wait">
+        {/* Step 0: Show Korean */}
         {step === 0 && (
-          <motion.div
-            key="korean"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ x: -100, opacity: 0 }}
-            transition={{ duration: 0.5 }}
+          <motion.div 
             className="text-5xl font-bold absolute"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
           >
             Korean
           </motion.div>
         )}
-        
-        {step === 1 && (
-          <motion.div
-            key="ko"
-            initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: -20 }}
-            transition={{ duration: 0.5 }}
-            className="text-5xl font-bold absolute"
-          >
-            Ko
-          </motion.div>
-        )}
 
-        {step === 2 && (
-          <>
+        {/* Steps 1-3: Ko and transitions */}
+        {(step >= 1 && step <= 3) && (
+          <div className="text-5xl font-bold absolute flex">
             <motion.div
-              key="ko-static"
-              initial={{ x: -20 }}
-              animate={{ x: -20 }}
-              className="text-5xl font-bold absolute"
+              initial={{ x: step === 1 ? 0 : -60 }}
+              animate={{ x: -60 }}
+              transition={{ duration: 0.8, ease: "easeInOut" }}
+              style={{ position: 'relative', zIndex: 1 }}
             >
               Ko
             </motion.div>
-            <motion.div
-              key="english"
-              initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 20 }}
-              exit={{ x: 0 }}
-              transition={{ duration: 0.5 }}
-              className="text-5xl font-bold absolute"
-            >
-              nglish
-            </motion.div>
-          </>
+            {step === 1 && (
+              <motion.div
+                initial={{ opacity: 1 }}
+                animate={{ opacity: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                rean
+              </motion.div>
+            )}
+            {step === 2 && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.5 }}
+                style={{ marginLeft: "-55px" }}
+              >
+                English
+              </motion.div>
+            )}
+            {step === 3 && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.5 }}
+                style={{ marginLeft: "-55px" }}
+              >
+                English
+              </motion.div>
+            )}
+            {step === 4 && (
+              <motion.div style={{ marginLeft: "10px" }}>
+                <motion.span
+                  initial={{ opacity: 1 }}
+                  animate={{ opacity: 0 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  E
+                </motion.span>
+                nglish
+              </motion.div>
+            )}
+          </div>
         )}
 
-        {step === 3 && (
-          <motion.div
-            key="konglish"
-            initial={{ scale: 1 }}
-            animate={{ 
-              scale: [1, 1.1, 1],
-              transition: { duration: 0.8, times: [0, 0.5, 1] }
-            }}
+        {/* Step 4: Final Konglish */}
+        {step === 5 && (
+          <motion.div 
             className="text-5xl font-bold absolute"
           >
-            Konglish
+            <motion.span
+              style={{ position: 'relative', zIndex: 1 }}
+            >
+              Ko
+            </motion.span>
+            <motion.span
+              initial={{ x: 120, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeInOut" }}
+            >
+              nglish
+            </motion.span>
           </motion.div>
         )}
       </AnimatePresence>
