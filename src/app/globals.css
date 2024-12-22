@@ -4,12 +4,13 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-rgb: 255, 255, 255;
-  --background-color: #f1e6b9;
+  /* --background-rgb: 255, 255, 255; */
+  /* --background-color: #f1e6b9; */
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
-  background-color: var(--background-color);
+  /* background: bgar(--background-rgb)); */
+  background-image: url('/beige-bg.jpg');
+  /* background-color: var(--background-color); */
 }

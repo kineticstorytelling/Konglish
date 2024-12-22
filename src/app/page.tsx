@@ -27,7 +27,7 @@ export default function Home() {
   ]
 
   return (
-    <div className="space-y-12">
+    <div className="space-y-12 bg-[url('/beige-bg.jpg')] bg-cover bg-center bg-repeat">
       {/* Hero Section */}
       <section className="text-center py-12">
         <AnimatedTitle />
