@@ -11,6 +11,6 @@
 body {
   color: rgb(var(--foreground-rgb));
   /* background: bgar(--background-rgb)); */
-  background-image: url('/beige-bg.jpg');
+  background-image: url('/natural-paper-bg.jpg');
   /* background-color: var(--background-color); */
 }
