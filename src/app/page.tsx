@@ -5,24 +5,24 @@ export default function Home() {
   const featuredPosts = [
     {
       id: 1,
-      title: 'Getting Started with Next.js',
-      excerpt: 'Learn how to build modern web applications with Next.js',
-      date: 'Dec 1, 2023',
-      category: 'Development'
+      title: 'Idioms Explained',
+      excerpt: 'An explanation of popular American Phrases and Sayings',
+      date: 'Dec 1, 2024',
+      category: 'Culture'
     },
     {
       id: 2,
-      title: 'Mastering Tailwind CSS',
-      excerpt: 'Tips and tricks for building beautiful interfaces with Tailwind',
+      title: 'Engrish Misprints',
+      excerpt: 'English Titles written using Korean Grammar',
       date: 'Dec 5, 2023',
       category: 'Design'
     },
     {
       id: 3,
-      title: 'The Future of Web Development',
-      excerpt: 'Exploring upcoming trends in web development',
+      title: 'The Konglish Rift',
+      excerpt: 'The differences between Korean and English and how to bridge the gap',
       date: 'Dec 10, 2023',
-      category: 'Technology'
+      category: 'Linguistics'
     }
   ]
 
@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       {/* Newsletter Section */}
-      <section className="bg-gray-100 p-8 rounded-lg">
+      {/* <section className="bg-gray-100 p-8 rounded-lg">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
           <p className="text-gray-600 mb-6">
@@ -91,7 +91,7 @@ export default function Home() {
             </button>
           </form>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
