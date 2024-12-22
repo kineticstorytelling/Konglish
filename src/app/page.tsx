@@ -32,7 +32,7 @@ export default function Home() {
       <section className="text-center py-12">
         <AnimatedTitle />
         <p className="text-xl text-gray-600 mb-8">
-          Exploring the latest in technology, development, and innovation
+          Exploring the connection between Korean and English: two languages in one
         </p>
         <Link 
           href="/blog" 
