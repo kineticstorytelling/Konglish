@@ -24,7 +24,7 @@ const About: React.FC = () => {
 
         {/* Description section */}
         <div className="w-full md:w-1/2 space-y-6">
-          <h2 className="text-2xl font-semibold">Luke Norman</h2>
+          <h2 className="text-2xl font-semibold">Luke Nam</h2>
           <div className="text-lg space-y-4">
             <p>
               Hi! I'm Luke, a passionate language enthusiast and the creator of Konglish. 
