@@ -40,7 +40,7 @@ export default function AnimatedTitle() {
               animate={{ x: -60 }}
               transition={{ duration: 0.8, ease: "easeInOut" }}
               style={{  zIndex: 1 }}
-              // removed position relative
+              // removed position relative from style
             >
               Ko
             </motion.div>
