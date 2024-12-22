@@ -2,11 +2,11 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className="bg-primary text-white shadow-lg">
+    <nav className="bg-light-gray text-black shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-2xl font-bold">
-            TechBlog
+          <Link href="/" className="">
+            <img src="/assets/logos/my-logo-black-removebg.png" alt=" Konglish Logo" className="h-16 ml-2" />
           </Link>
           
           <div className="hidden md:flex space-x-8">
