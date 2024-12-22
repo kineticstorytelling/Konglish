@@ -36,8 +36,8 @@ export default function AnimatedTitle() {
         {(step >= 1 && step <= 3) && (
           <div className="text-5xl font-bold absolute flex">
             <motion.div
-              initial={{ x: step === 1 ? 0 : -60 }}
-              animate={{ x: -60 }}
+              // initial={{ x: step === 1 ? 0 : -60 }}
+              // animate={{ x: -60 }}
               transition={{ duration: 0.8, ease: "easeInOut" }}
               style={{  zIndex: 1 }}
               // removed position relative from style
@@ -58,13 +58,13 @@ export default function AnimatedTitle() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, ease: "easeInOut" }}
-                style={{ marginLeft: "-50px" }}
+                // style={{ marginLeft: "-20px" }}
               >
                 English
               </motion.div>
             )}
             {step === 3 && (
-              <motion.div style={{ marginLeft: "120px" }}>
+              <motion.div>
                 <motion.span
                   initial={{ opacity: 1 }}
                   animate={{ opacity: 0 }}
@@ -85,12 +85,15 @@ export default function AnimatedTitle() {
           >
             <motion.span
               style={{ position: 'relative', zIndex: 1 }}
+              initial={{ fontSize: "3rem", x: 0, opacity: 0 }}
+              animate={{ fontSize:"4rem", x: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeInOut" }}
             >
               Ko
             </motion.span>
             <motion.span
-              initial={{ x: 120, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
+              initial={{ fontSize: "3rem", x: 0, opacity: 0 }}
+              animate={{ fontSize:"4rem", x: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: "easeInOut" }}
             >
               nglish
