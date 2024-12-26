@@ -1,15 +1,21 @@
 import Link from 'next/link'
+import { Alegreya } from 'next/font/google'
 
+const alegreya = Alegreya({ subsets: ['latin'] })
 export default function Navbar() {
   return (
     <nav className="bg-light-gray text-black shadow-lg">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
-          <Link href="/" className="">
-            <img src="/assets/logos/my-logo-black-removebg.png" alt=" Konglish Logo" className="h-16 ml-2" />
+        <div className="flex flex-col items-center">
+          <Link href="/" className="py-4 flex items-center">
+            <img src="/assets/logos/my-logo-black-removebg.png" alt="Konglish Logo" className="h-24 w-auto mr-4" />
+            <div className="text-4xl">
+              <span className="font-bold" style={{ fontFamily: 'ryuijin-attack, sans-serif' }}>Ko</span>
+              <span className={`${alegreya.className}`}>nglish</span>
+            </div>
           </Link>
-          
-          <div className="hidden md:flex space-x-8">
+
+          <div className="flex space-x-8 py-4">
             <Link href="/" className="hover:text-gray-300 transition-colors">
               Home
             </Link>

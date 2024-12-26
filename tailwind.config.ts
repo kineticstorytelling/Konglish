@@ -8,35 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'ryuijin-attack': ['var(--font-ryuijin-attack)'],
+      },
       colors: {
         primary: '#1a365d',
         secondary: '#2d3748',
+        'light-gray': '#f7fafc', // Add this line if you're using 'bg-light-gray' in your Navbar
       },
-      typography: {
-        DEFAULT: {
-          css: {
-            maxWidth: 'none',
-            code: {
-              backgroundColor: '#f3f4f6',
-              padding: '0.2em 0.4em',
-              borderRadius: '0.25rem',
-              fontWeight: '400',
-            },
-            'code::before': {
-              content: '""'
-            },
-            'code::after': {
-              content: '""'
-            },
-            'blockquote p:first-of-type::before': {
-              content: '""'
-            },
-            'blockquote p:last-of-type::after': {
-              content: '""'
-            },
-          }
-        }
-      }
+      // ... rest of your theme configuration
     },
   },
   plugins: [
