@@ -9,7 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'ryuijin-attack': ['var(--font-ryuijin-attack)'],
+        ryujin: ['var(--font-ryujin-attack)'],
+        gingsul: ['var(--font-gingsul)'],
+        ryukosei-regular: ['var(--font-ryukosei-regular)'],
       },
       colors: {
         primary: '#1a365d',

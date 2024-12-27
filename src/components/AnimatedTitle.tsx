@@ -1,7 +1,9 @@
 'use client';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import { Alegreya } from 'next/font/google'
 
+const alegreya = Alegreya({ subsets: ['latin'] })
 export default function AnimatedTitle() {
   const [step, setStep] = useState(0);
 
@@ -21,7 +23,7 @@ export default function AnimatedTitle() {
         {/* Step 0: Show Korean */}
         {step === 0 && (
           <motion.div 
-            className="text-5xl font-bold "
+            className="text-5xl font-bold font-gingsul"
             // absolute was removed
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -34,7 +36,7 @@ export default function AnimatedTitle() {
 
         {/* Steps 1-3: Ko and transitions */}
         {(step >= 1 && step <= 3) && (
-          <div className="text-5xl font-bold absolute flex">
+          <div className="text-5xl font-bold font-gingsul absolute flex">
             <motion.div
               // initial={{ x: step === 1 ? 0 : -60 }}
               // animate={{ x: -60 }}
@@ -49,6 +51,7 @@ export default function AnimatedTitle() {
                 initial={{ opacity: 1 }}
                 animate={{ opacity: 0 }}
                 transition={{ duration: 0.5 }}
+                className='font-gingsul'
               >
                 rean
               </motion.div>
@@ -58,17 +61,19 @@ export default function AnimatedTitle() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, ease: "easeInOut" }}
+                className={`${alegreya.className}`}
                 // style={{ marginLeft: "-20px" }}
               >
                 English
               </motion.div>
             )}
             {step === 3 && (
-              <motion.div>
+              <motion.div className={`${alegreya.className}`}>
                 <motion.span
                   initial={{ opacity: 1 }}
                   animate={{ opacity: 0 }}
                   transition={{ duration: 0.5 }}
+                  className={`${alegreya.className}`}
                 >
                   E
                 </motion.span>
@@ -88,6 +93,7 @@ export default function AnimatedTitle() {
               initial={{ fontSize: "3rem", x: 0, opacity: 0 }}
               animate={{ fontSize:"4rem", x: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: "easeInOut" }}
+              className='font-gingsul'
             >
               Ko
             </motion.span>
@@ -95,6 +101,7 @@ export default function AnimatedTitle() {
               initial={{ fontSize: "3rem", x: 0, opacity: 0 }}
               animate={{ fontSize:"4rem", x: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: "easeInOut" }}
+              className={`${alegreya.className}`}
             >
               nglish
             </motion.span>
