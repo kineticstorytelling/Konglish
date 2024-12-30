@@ -11,7 +11,7 @@ const config: Config = {
       fontFamily: {
         ryujin: ['var(--font-ryujin-attack)'],
         gingsul: ['var(--font-gingsul)'],
-        ryukosei-regular: ['var(--font-ryukosei-regular)'],
+        ryukosei: ['var(--font-ryukosei)'],
       },
       colors: {
         primary: '#1a365d',

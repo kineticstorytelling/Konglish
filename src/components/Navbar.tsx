@@ -10,7 +10,7 @@ export default function Navbar() {
           <Link href="/" className="py-4 flex items-center">
             <img src="/assets/logos/my-logo-black-removebg.png" alt="Konglish Logo" className="h-24 w-auto mr-4" />
             <div className="text-4xl">
-              <span className="font-bold font-gingsul">Ko</span>
+              <span className="font-bold font-ryukosei text-5xl">Ko</span>
               <span className={`${alegreya.className} font-bold`}>nglish</span>
             </div>
           </Link>

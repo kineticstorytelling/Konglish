@@ -15,6 +15,10 @@ const gingsul = localFont({
   src: './fonts/gingsul-demo.regular.ttf',
   variable: '--font-gingsul'
 })
+const ryukosei = localFont({ 
+  src: '../../public/assets/fonts/ryukosei.otf',
+  variable: '--font-ryukosei'
+})
 
 export const metadata: Metadata = {
   title: 'Konglish',
@@ -27,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${gingsul.variable}`}>
+    <html lang="en" className={`${ryukosei.variable}`}>
       <body className={inter.className}>
         <Navbar />
         <main className="flex-grow container mx-auto px-4 py-8">
