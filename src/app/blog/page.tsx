@@ -1,12 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
 import { blogPosts } from '@/data/blogPosts';
-
+import { Alegreya } from 'next/font/google'
+const alegreya = Alegreya({ subsets: ['latin'] })
 export default function Blog() {
   return (
     <main className="min-h-screen p-8">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-8">Blog</h1>
+        <div className="flex items-baseline mb-8">
+          <h1 className="text-8xl font-bold font-ryukosei">Bl</h1>
+          <h1 className={`${alegreya.className} text-7xl font-bold`}>og</h1>
+        </div>
         <div className="grid gap-8">
           {blogPosts.map((post) => (
             <article 

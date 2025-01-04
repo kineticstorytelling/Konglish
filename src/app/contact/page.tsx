@@ -1,11 +1,16 @@
 import React from 'react';
+import { Alegreya } from 'next/font/google'
+const alegreya = Alegreya({ subsets: ['latin'] })
 
 export default function Contact() {
   return (
     <main className="min-h-screen p-8">
       <div className="max-w-2xl mx-auto">
-        <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
-        
+      <div className="flex items-baseline mb-8">
+          <h1 className="text-8xl font-bold font-ryukosei">Co</h1>
+          <h1 className={`${alegreya.className} text-7xl font-bold`}>ntact</h1>
+        </div>
+
         <form className="space-y-6">
           <div>
             <label htmlFor="name" className="block text-sm font-medium mb-2">

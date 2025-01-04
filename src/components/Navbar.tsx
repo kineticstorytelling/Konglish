@@ -15,7 +15,7 @@ export default function Navbar() {
             </div>
           </Link>
 
-          <div className="flex space-x-8 py-4">
+          <div className={`${alegreya.className} flex space-x-8 py-4 text-3xl`} >
             <Link href="/" className="hover:text-gray-300 transition-colors">
               Home
             </Link>

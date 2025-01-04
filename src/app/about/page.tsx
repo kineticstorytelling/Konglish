@@ -2,11 +2,16 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { Alegreya } from 'next/font/google'
+const alegreya = Alegreya({ subsets: ['latin'] })
 
 const About: React.FC = () => {
   return (
     <main className="flex min-h-screen flex-col items-center p-8">
-      <h1 className="text-4xl font-bold mb-12">About Me</h1>
+      <div className="flex items-baseline mb-8">
+          <h1 className="text-8xl font-bold font-ryukosei">Ab</h1>
+          <h1 className={`${alegreya.className} text-7xl font-bold`}>out</h1>
+      </div> 
       
       <div className="max-w-6xl w-full flex flex-col md:flex-row gap-8 items-center md:items-start">
         {/* Image section */}
