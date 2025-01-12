@@ -29,10 +29,10 @@ export default function Home() {
   return (
     <div className="space-y-12">
       {/* Hero Section */}
-      <section className="flex justify-between items-center py-12 px-4">
-        <div className="text-left">
+      <section className="flex justify-center items-center py-12 px-4">
+        <div className="text-left px-4 w-2/5">
           <AnimatedTitle />
-          <p className="text-xl text-gray-600 mb-8">
+          <p className="text-xl text-gray-600 mb-8 mt-4 px-5">
             Exploring the connection between Korean and English: two languages in one
           </p>
           <Link 
@@ -42,7 +42,7 @@ export default function Home() {
             Read Our Blog
           </Link>
         </div>
-        <div className="w-1/3 flex justify-center">
+        <div className="w-1/4 flex justify-center bg-contain bg-no-repeat bg-center" style={{ backgroundImage: "url('/assets/images/Konglish-BG-part.png')" }}>
           <img 
             src="/assets/images/taeguk.png" 
             alt="Taeguk Symbol" 
@@ -98,7 +98,7 @@ export default function Home() {
             >
               Subscribe
             </button>
-          </form>
+
         </div>
       </section> */}
     </div>
