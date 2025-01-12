@@ -18,7 +18,7 @@ export default function AnimatedTitle() {
   }, [step]);
 
   return (
-    <div className="relative h-24 flex justify-center items-center">
+    <div className="relative h-24 flex items-center">
       <AnimatePresence mode="wait">
         {/* Step 0: Show Korean */}
         {step === 0 && (

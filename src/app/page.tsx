@@ -29,17 +29,26 @@ export default function Home() {
   return (
     <div className="space-y-12">
       {/* Hero Section */}
-      <section className="text-center py-12">
-        <AnimatedTitle />
-        <p className="text-xl text-gray-600 mb-8">
-          Exploring the connection between Korean and English: two languages in one
-        </p>
-        <Link 
-          href="/blog" 
-          className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors"
-        >
-          Read Our Blog
-        </Link>
+      <section className="flex justify-between items-center py-12 px-4">
+        <div className="text-left">
+          <AnimatedTitle />
+          <p className="text-xl text-gray-600 mb-8">
+            Exploring the connection between Korean and English: two languages in one
+          </p>
+          <Link 
+            href="/blog" 
+            className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors"
+          >
+            Read Our Blog
+          </Link>
+        </div>
+        <div className="w-1/3 flex justify-center">
+          <img 
+            src="/assets/images/taeguk.png" 
+            alt="Taeguk Symbol" 
+            className="w-64 h-64 object-contain animate-spin-slow"
+          />
+        </div>
       </section>
 
       {/* Featured Posts */}
