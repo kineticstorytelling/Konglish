@@ -6,8 +6,8 @@ const alegreya = Alegreya({ subsets: ['latin'] })
 
 export default function Navbar() {
   return (
-    <nav className="text-black shadow-lg">
-      <div className="container mx-auto px-4">
+    <nav className="text-black">
+      <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <Link href="/" className="flex items-center">
@@ -15,7 +15,7 @@ export default function Navbar() {
           </Link>
 
           {/* Navigation Links */}
-          <div className={`${alegreya.className} flex space-x-8 text-2xl`}>
+          <div className={`${alegreya.className} flex space-x-8 text-lg`}>
             <Link href="/" className="hover:text-gray-600 transition-colors">
               Home
             </Link>
@@ -31,7 +31,7 @@ export default function Navbar() {
           </div>
 
           {/* Social Media Icons */}
-          <div className="flex space-x-4 text-2xl">
+          <div className="flex space-x-4 text-base">
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" 
                className="hover:text-gray-600 transition-colors hover:text-pink-600">
               <FaInstagram />

@@ -1,33 +1,47 @@
+import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
+import Link from 'next/link'
+
 export default function Footer() {
   return (
     <footer className="bg-primary text-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-xl font-bold mb-4">About TechBlog</h3>
-            <p className="text-gray-300">
-              Exploring the latest in technology, development, and innovation.
-            </p>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li><a href="/blog" className="text-gray-300 hover:text-white">Blog Posts</a></li>
-              <li><a href="/about" className="text-gray-300 hover:text-white">About Us</a></li>
-              <li><a href="/contact" className="text-gray-300 hover:text-white">Contact</a></li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-xl font-bold mb-4">Connect</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-white">Twitter</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white">GitHub</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white">LinkedIn</a></li>
-            </ul>
+      <div className="max-w-5xl mx-auto px-4 flex flex-col space-y-8">
+        {/* Logo and Menu Links */}
+        <div className="flex flex-col items-center space-y-6">
+          <Link href="/" className="flex items-center rounded-full p-2" style={{ backgroundImage: "url('/assets/images/Konglish-BG-3.png')" }}>
+            <img src="/assets/logos/konglish-logo.png" alt="Konglish Logo" className="h-16 w-auto" />
+          </Link>
+          
+          <div className="flex space-x-8 text-sm">
+            <Link href="/blog" className="text-gray-300 hover:text-white transition-colors">Blog Posts</Link>
+            <Link href="/about" className="text-gray-300 hover:text-white transition-colors">About Us</Link>
+            <Link href="/tutoring" className="text-gray-300 hover:text-white transition-colors">Tutoring</Link>
+            <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p className="text-gray-300">&copy; 2024 TechBlog. All rights reserved.</p>
+
+        {/* Dividing Line */}
+        <div className="w-full">
+          <div className="border-t border-gray-300/50"></div>
+        </div>
+
+        {/* Copyright and Social Icons */}
+        <div className="w-full flex justify-between items-center">
+          <p className="text-gray-300">&copy; 2024 Konglish. All rights reserved.</p>
+          
+          <div className="flex space-x-6 text-base">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" 
+               className="text-gray-300 hover:text-pink-400 transition-colors">
+              <FaInstagram />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+               className="text-gray-300 hover:text-blue-400 transition-colors">
+              <FaTwitter />
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+               className="text-gray-300 hover:text-blue-300 transition-colors">
+              <FaLinkedin />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
