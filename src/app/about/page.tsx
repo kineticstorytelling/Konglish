@@ -31,13 +31,16 @@ const About: React.FC = () => {
           <h2 className="text-2xl font-semibold">Luke Nam</h2>
           <div className="text-lg space-y-4">
             <p>
-              Hi! I'm Luke, an experienced English Teacher and the creator of Konglish. 
+              Hello and welcome to my website. I'm Luke, an experienced English Teacher and the creator of Konglish. 
               Born and raised in New York, I've always been fascinated by 
               the way the language of my parent's culture interacted with the language of my birth. I am curious as to how these languages interact in modern Korean culture.            </p>
             
             <p>
-              Growing up, I've always struggled to communicate with my parents. We somehow developed a strange patois of regionally accented Korean, broken English and modern New Yorker accent. It's beautiful in it's ugliness and I dedicate this site to it. 
-              It was when I came to Korea that I became deeply immersed in the culture and developed a strong interest in the 
+              Growing up, I had always struggled to communicate with my parents. We somehow developed a strange patois of regionally accented Korean, broken English, and the modern New Yorker accent. It's beautiful in it's ugliness and I dedicate this site to it. 
+            </p>
+
+            <p>  
+              I spent my career as an English teacher, helping others learn the intricacies of the English language. But it was when I came to Korea that I became deeply immersed in the culture and developed a strong interest in the 
               phenomenon of Konglish.
             </p>
 
