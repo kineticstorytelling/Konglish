@@ -12,9 +12,10 @@ export default function Footer() {
           </Link>
           
           <div className="flex space-x-8 text-sm">
-            <Link href="/blog" className="text-gray-300 hover:text-white transition-colors">Blog Posts</Link>
-            <Link href="/about" className="text-gray-300 hover:text-white transition-colors">About Us</Link>
+            <Link href="/" className="text-gray-300 hover:text-white transition-colors">Home</Link>
+            <Link href="/blog" className="text-gray-300 hover:text-white transition-colors">Blog</Link>
             <Link href="/tutoring" className="text-gray-300 hover:text-white transition-colors">Tutoring</Link>
+            <Link href="/about" className="text-gray-300 hover:text-white transition-colors">About</Link>
             <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link>
           </div>
         </div>

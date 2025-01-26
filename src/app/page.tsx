@@ -38,12 +38,14 @@ export default function Home() {
           <p className="text-xl text-gray-600 mb-8 mt-4 px-5">
             Exploring the connection between Korean and English: two languages in one
           </p>
-          <Link 
-            href="/blog" 
-            className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors"
-          >
-            Read Our Blog
-          </Link>
+          <div className="px-5">
+            <Link 
+              href="/blog" 
+              className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors"
+            >
+              Read Our Blog
+            </Link>
+          </div>
         </div>
         <div className="w-1/4 flex justify-center bg-contain bg-no-repeat bg-center" style={{ backgroundImage: "url('/assets/images/Konglish-BG-part.png')" }}>
           <img 
