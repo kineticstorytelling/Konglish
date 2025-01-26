@@ -31,10 +31,9 @@ const About: React.FC = () => {
           <h2 className="text-2xl font-semibold">Luke Nam</h2>
           <div className="text-lg space-y-4">
             <p>
-              Hi! I'm Luke, a passionate language enthusiast and the creator of Konglish. 
-              With a background in both Korean and English, I've always been fascinated by 
-              the unique way these languages interact in modern Korean culture.
-            </p>
+              Hi! I'm Luke, an experienced English Teacher and the creator of Konglish. 
+              Born and raised in New York, I've always been fascinated by 
+              the way the language of my parent's culture interacted with the language of my birth. I am curious as to how these languages interact in modern Korean culture.            </p>
             
             <p>
               My journey with Korean language began during my time teaching English in South Korea, 
