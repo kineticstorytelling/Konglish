@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* Tutoring Services CTA */}
-      <section className="bg-gradient-to-r from-primary/10 to-primary/5 rounded-2xl p-12 mx-4">
+      <section className="p-12 w-auto" style={{ backgroundColor: '#FFF9F1' }}>
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/3">
             <img 
@@ -64,7 +64,7 @@ export default function Home() {
               className="w-full max-w-sm mx-auto"
             />
           </div>
-          <div className="md:w-2/3">
+          <div className="w-full">
             <h2 className="text-3xl font-bold mb-4">Master English with Expert Tutoring</h2>
             <p className="text-xl text-gray-600 mb-6">
               Break through language barriers with personalized tutoring sessions. 
@@ -80,7 +80,11 @@ export default function Home() {
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-primary">✓</span>
-                <span>Native speakers for both languages</span>
+                <span>Experienced Help</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-primary">✓</span>
+                <span>Expertise in Business English, Writing, Speaking, Test Prep(TOEIC, OPIC, TOEFL, SAT)</span>
               </li>
             </ul>
             <Link 

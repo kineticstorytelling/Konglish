@@ -24,7 +24,6 @@ export default function AnimatedTitle() {
         {step === 0 && (
           <motion.div 
             className="text-6xl font-bold font-ryukosei"
-            // absolute was removed
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -38,12 +37,9 @@ export default function AnimatedTitle() {
         {(step >= 1 && step <= 3) && (
           <div className="text-5xl font-bold absolute flex">
             <motion.div
-              // initial={{ x: step === 1 ? 0 : -60 }}
-              // animate={{ x: -60 }}
               transition={{ duration: 0.8, ease: "easeInOut" }}
               style={{  zIndex: 1 }}
               className="text-6xl font-ryukosei"
-              // removed position relative from style
             >
               Ko
             </motion.div>
@@ -63,7 +59,6 @@ export default function AnimatedTitle() {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, ease: "easeInOut" }}
                 className={`${alegreya.className}`}
-                // style={{ marginLeft: "-20px" }}
               >
                 English
               </motion.div>
