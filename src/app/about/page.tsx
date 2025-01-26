@@ -16,13 +16,12 @@ const About: React.FC = () => {
       <div className="max-w-6xl w-full flex flex-col md:flex-row gap-8 items-center md:items-start">
         {/* Image section */}
         <div className="w-full md:w-1/2 relative">
-          <div className="aspect-square relative overflow-hidden rounded-lg shadow-lg">
+          <div className="w-96 h-96 relative overflow-hidden rounded-full shadow-lg mx-auto">
             <Image
-              src="/luke-profile.jpg"
+              src="/assets/images/2_Profile_Pic-nobg.png"
               alt="Luke's profile picture"
               fill
-              className="object-cover"
-              priority
+              className="object-contain"
             />
           </div>
         </div>
