@@ -59,7 +59,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/3">
             <img 
-              src="/assets/images/tutoring-illustration.png" 
+              src="/assets/images/study.png" 
               alt="Tutoring Illustration" 
               className="w-full max-w-sm mx-auto"
             />
