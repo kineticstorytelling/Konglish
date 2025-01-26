@@ -36,8 +36,8 @@ const About: React.FC = () => {
               the way the language of my parent's culture interacted with the language of my birth. I am curious as to how these languages interact in modern Korean culture.            </p>
             
             <p>
-              My journey with Korean language began during my time teaching English in South Korea, 
-              where I became deeply immersed in the culture and developed a strong interest in the 
+              Growing up, I've always struggled to communicate with my parents. We somehow developed a strange patois of regionally accented Korean, broken English and modern New Yorker accent. It's beautiful in it's ugliness and I dedicate this site to it. 
+              It was when I came to Korea that I became deeply immersed in the culture and developed a strong interest in the 
               phenomenon of Konglish.
             </p>
 
