@@ -16,11 +16,11 @@ const ryujinAttack = localFont({
   variable: '--font-ryujin-attack'
 })
 // const gingsul = localFont({ 
-//   src: '../../public/assets/fonts/gingsul.ttf',
+//   src: './fonts/gingsul.ttf',
 //   variable: '--font-gingsul'
 // })
 const ryukosei = localFont({ 
-  src: '../../public/assets/fonts/ryukosei.otf',
+  src: './fonts/Ryukosei.otf',
   variable: '--font-ryukosei'
 })
 
