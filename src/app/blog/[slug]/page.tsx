@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 import { blogPosts } from '@/data/blogPosts';
 
 export default function BlogPost({ params }: { params: { slug: string } }) {
@@ -30,12 +31,14 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
             <time>{post.date}</time>
             <span>By {post.author}</span>
           </div>
-          <ReactMarkdown 
-            remarkPlugins={[remarkGfm]}
-            className="markdown-content"
-          >
-            {post.content}
-          </ReactMarkdown>
+          <div className="markdown-content [&_img]:max-w-[300px] [&_img]:w-auto [&_img]:h-auto">
+            <ReactMarkdown 
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw]}
+            >
+              {post.content}
+            </ReactMarkdown>
+          </div>
         </article>
       </div>
     </main>

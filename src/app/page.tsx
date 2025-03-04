@@ -33,26 +33,19 @@ export default function Home() {
     <div className="space-y-12">
       {/* Hero Section */}
       <section className="flex justify-center items-center py-12 px-4">
-        <div className="text-left px-4 w-2/5">
+        <div className="text-center px-4 w-full max-w-3xl mx-auto">
           <AnimatedTitle />
-          <p className="text-xl text-gray-600 mb-8 mt-4 px-5">
+          <p className="text-xl text-gray-600 mb-8 mt-4 max-w-sm mx-auto">
             Exploring the connection between Korean and English: two languages in one
           </p>
-          <div className="px-5">
+          <div>
             <Link 
               href="/blog" 
-              className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors"
+              className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors inline-block"
             >
               Read Our Blog
             </Link>
           </div>
-        </div>
-        <div className="w-1/4 flex justify-center bg-contain bg-no-repeat bg-center" style={{ backgroundImage: "url('/assets/images/Konglish-BG-part.png')" }}>
-          <img 
-            src="/assets/images/taeguk.png" 
-            alt="Taeguk Symbol" 
-            className="w-64 h-64 object-contain animate-spin-slow"
-          />
         </div>
       </section>
 

@@ -142,34 +142,82 @@ formal vs informal speech.
    excerpt: "explanation and examples of popular American idioms",
    content: `
 
-Welcome to my series, Idioms Explained: An Explanation of American Phrases and Sayings. This is a series in which I go through different popular idioms used by American people in everyday conversation.
+Hi, I'm Luke, I am the creator of the website [Konglish.org](https://konglish.org).
 
-Today’s sayings are, **I bit off more than I can chew** and **your eyes are bigger than your stomach**. 
-Imagine there is a large tasty-looking hamburger. You are really hungry and you have not eaten all day. That burger looks so delicious. Your mouth is watering and you can’t wait to take a bite. You grab the burger and take a huge bite. It’s such a big bite that your mouth is completely full, almost too full. You have so much in your mouth that you struggle to chew it all. Oh no! You can’t chew it all and swallow. You are forced to spit out some of it. Gross.
-That is where the phrase comes from. When children would be eager to eat and take large mouthfuls of food that they struggle to swallow, adults would tell them to slow down and take their time. 
-This is the case when it comes to decisions we make. When you try to do too much or when you make promises you can not keep, you are biting off more than you can chew. You are doing more than you have enough time and energy to do. This can lead to failing to finish what you set out to do or doing your work poorly. Here are a few examples:
+### Welcome to *Phrases Explained: An Explanation of American Phrases and Sayings*
 
-“I got a promotion at work but I now have to work on multiple projects. I think I bit off more than I can chew…”
+This is a series where I explore different popular phrases used by Americans in everyday conversation.
 
-“You don’t have time for that John! You bit off more than you can chew.”
-
-“Don’t say yes to that request Jane. Don’t bite off more than you can chew.”
-
-There is a similar idiom that means you wanted more than you can handle: “his eyes are bigger than his stomach”. Just like in that first example, when someone is really hungry, they want to eat a lot, so they take more than they can actually eat. The difference between this phrase and the first one is that the person takes more than they can eat and not more than they can chew. Instead of it being one hamburger that they stuff into their mouth, it is a plate of hamburgers that they will not be able to finish because they are full. Literally your eye size is bigger than your stomach size. 
-
-That is exactly what the phrase means; to take more than you can handle because you want too much.
-
-Here are some examples:
-
-“You have all these board games that you don’t play with. Were your eyes bigger than your stomach?”
-
-“He always gets too much food. His eyes are bigger than his stomach.”
-
-“You’re never going to finish these projects John! I told you from the beginning, your eyes are bigger than your stomach.”
-
-As with most idioms, the literal phrase is changed to figurative and we say this to describe something a person did.
+### Today’s Phrases:
+1. **"I bit off more than I can chew"**
+2. **"Your eyes are bigger than your stomach"**
 
 
+### Imagine this scenario:
+You see a large, tasty-looking hamburger. You’re really hungry and haven’t eaten all day. The burger looks so delicious that your mouth is watering, and you can’t wait to take a bite.
+
+![A juicy hamburger|300](/assets/images/burger.jpg "A juicy hamburger")
+
+You grab the burger and take a huge bite. It's such a big bite that your mouth is completely full—almost too full. You struggle to chew it all. Oh no! You can’t chew it all and swallow, so you’re forced to spit some of it out. Gross!
+
+---
+
+### Where the phrase comes from:
+When children were eager to eat and took large mouthfuls of food that they struggled to swallow, adults would tell them to slow down and take their time. (👶 *child with a large mouthful of food*)
+
+This idea applies to decisions we make in life. When you try to do too much or make promises you can’t keep, you’re **biting off more than you can chew**. (📊 *Graphic: person surrounded by papers, looking confused*)
+
+You’re doing more than you have the time and energy for, which can lead to failing to finish what you set out to do or doing your work poorly. (📉 *Graphic: example of poor work*)
+
+---
+
+### Examples of "bite off more than you can chew":
+- “I got a promotion at work, but now I have to work on multiple projects. I think I bit off more than I can chew…”
+- “You don’t have time for that, John! You bit off more than you can chew.”
+- “Don’t say yes to that request, Jane. Don’t bite off more than you can chew.”
+
+---
+
+### A similar phrase: **"Your eyes are bigger than your stomach"**
+This phrase also means wanting more than you can handle. For example, when someone is really hungry, they take more food than they can actually eat. 
+
+The difference is that this phrase refers to taking more than you can **eat**, not more than you can **chew**. Instead of stuffing one hamburger into your mouth (🍔 *Graphic: burger eating*), it’s about having a plate of hamburgers that you won’t be able to finish because you’re full. (🍔🍔🍔 *Graphic: large amount of burgers, maybe Matt Stonie*)
+
+Literally, your eyes (desire) are bigger than your stomach (capacity). While this isn’t physically possible, the image is vivid.
+
+---
+
+### Examples of "your eyes are bigger than your stomach":
+- “You have all these board games that you don’t play with. Were your eyes bigger than your stomach?”
+- “He always gets too much food. His eyes are bigger than his stomach.”
+- “You’re never going to finish these projects, John! I told you from the beginning, your eyes are bigger than your stomach.”
+
+*(Line from *Little House on the Prairie*)*
+
+This phrase isn’t as common, but you still hear it occasionally.
+
+---
+
+## Wrapping Up
+I hope this video helped you understand the phrases **"bite off more than you can chew"** and **"your eyes are bigger than your stomach"**. If you’d like to learn more, I wrote an entire article on this topic. The link is in the description and [here](#).
+
+---
+
+### About This Series
+This is an ongoing series where I explain American sayings and phrases. I also have videos on other topics, such as:
+- Reactions to Korean English in popular media
+- Explanations of the difficulties Koreans face with English
+
+If you’d like to see more content like this, **subscribe**! If not, eh, feel free to ignore this message. It’s all good in this neck of the woods. 
+
+I’m Luke, and I’ll see you next time. Oh, and please watch the outro if you’d like to learn about tutoring opportunities. Bye! 👋
+
+---
+
+### Did you enjoy this video?
+Would you like to improve your English language or speaking skills? I’d be happy to help! I offer **1-on-1 tutoring sessions** as well as **group sessions online**. No matter where you are in the world, I can help. 
+
+Contact info is on my website: [Konglish.org](https://konglish.org). The link is also below. I look forward to speaking with you!
 > Blockquotes for important points
 
 \`\`\`javascript

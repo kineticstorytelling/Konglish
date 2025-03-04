@@ -18,7 +18,7 @@ export default function AnimatedTitle() {
   }, [step]);
 
   return (
-    <div className="relative h-24 flex items-center px-5">
+    <div className="relative h-24 flex items-center justify-center w-full">
       <AnimatePresence mode="wait">
         {/* Step 0: Show Korean */}
         {step === 0 && (
@@ -35,7 +35,7 @@ export default function AnimatedTitle() {
 
         {/* Steps 1-3: Ko and transitions */}
         {(step >= 1 && step <= 3) && (
-          <div className="text-5xl font-bold absolute flex">
+          <div className="text-5xl font-bold flex">
             <motion.div
               transition={{ duration: 0.8, ease: "easeInOut" }}
               style={{  zIndex: 1 }}
@@ -82,7 +82,7 @@ export default function AnimatedTitle() {
         {/* Step 4: Final Konglish */}
         {step === 4 && (
           <motion.div 
-            className="text-5xl font-bold absolute"
+            className="text-5xl font-bold"
           >
             <motion.span
               style={{ position: 'relative', zIndex: 1 }}
