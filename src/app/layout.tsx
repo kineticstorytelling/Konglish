@@ -38,7 +38,7 @@ export default function RootLayout({
     <html lang="en" className={`${alegreya.variable} ${ryukosei.variable}`}>
       <body className={alegreya.className}>
         <Navbar />
-        <main className="flex-grow container mx-auto px-4 py-8">
+        <main className="flex-grow">
           {/* <h1 className="font-gingsul text-4xl mb-4">Welcome to Konglish</h1> */}
           {children}
         </main>

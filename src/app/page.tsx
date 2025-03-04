@@ -30,9 +30,9 @@ export default function Home() {
   ]
 
   return (
-    <div className="space-y-12">
+    <div className="space-y-0">
       {/* Hero Section */}
-      <section className="flex justify-center items-center py-12 px-4">
+      <section className="flex justify-center items-center py-12 px-4 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] bg-blue-50/50 w-full rounded-[48px]">
         <div className="text-center px-4 w-full max-w-3xl mx-auto">
           <AnimatedTitle />
           <p className="text-xl text-gray-600 mb-8 mt-4 max-w-sm mx-auto">
@@ -50,7 +50,7 @@ export default function Home() {
       </section>
 
       {/* Tutoring Services CTA */}
-      <section className="p-12 w-auto" style={{ backgroundColor: '#FFF9F1' }}>
+      <section className="p-12 w-full rounded-[48px] shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)]" style={{ backgroundColor: '#FFF9F1' }}>
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/3">
             <img 
@@ -96,7 +96,7 @@ export default function Home() {
       </section>
 
       {/* Featured Posts */}
-      <section>
+      <section className="w-full bg-blue-50/50 p-12">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Featured Posts</h2>
           <div className="grid md:grid-cols-3 gap-6">

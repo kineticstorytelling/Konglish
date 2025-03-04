@@ -6,8 +6,8 @@ const alegreya = Alegreya({ subsets: ['latin'] })
 
 export default function Navbar() {
   return (
-    <nav className="text-black">
-      <div className="max-w-5xl mx-auto px-4">
+    <nav className="text-black bg-blue-50/50">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <Link href="/" className="flex items-center">
