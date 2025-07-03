@@ -50,7 +50,7 @@ export default function Home() {
       </section>
 
       {/* Tutoring Services CTA */}
-      <section className="p-12 w-full rounded-[48px] shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)]" style={{ backgroundColor: '#FFF9F1' }}>
+      <section className="p-12 w-full rounded-[48px] shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] bg-blue-50/30">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/3">
             <img 
