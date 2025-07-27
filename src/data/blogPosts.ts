@@ -286,5 +286,49 @@ const example = "Hello World";
     date: "2025-07-27",
     readTime: "8 min read",
     author: "Luke Nam"
+  },
+  {
+    id: 6,
+    title: "Cost an Arm and a Leg",
+    excerpt: "The fascinating history and modern usage of this expensive expression.",
+    slug: "cost-an-arm-and-leg",
+    content: `
+# Cost an Arm and a Leg
+
+When something "costs an arm and a leg," it's incredibly expensive - so expensive that you'd have to give up something as valuable as your own limbs to afford it. While that's a rather gruesome image, the phrase has an intriguing artistic origin that's far less macabre than you might think.
+
+## The Artistic Origins
+
+The phrase emerged from the world of portrait painting in the late 18th and early 19th centuries. Back then, artists would charge their clients based on how much of the person they wanted to be included in the portrait. A simple head and shoulders? That's your basic rate. Want to add arms? That'll cost extra. Legs too? Now you're talking serious money 🎨
+
+This pricing structure made sense - the more limbs to paint, the more time and skill required, and thus, the higher the cost. A full-body portrait would indeed cost the equivalent of "an arm and a leg" compared to a simple bust.
+
+## Modern Day Usage
+
+Today, we use this phrase when talking about anything that seems unreasonably expensive. That new smartphone you've been eyeing? It costs an arm and a leg. The beachfront property of your dreams? You might need to throw in a kidney too 🏚
+
+### Common Scenarios
+- **Luxury Items**: "That designer bag costs an arm and a leg!"
+- **Real Estate**: "Living in downtown Manhattan costs an arm and a leg"
+- **Education**: "Private university tuition these days costs an arm and a leg"
+
+## The Art of Exaggeration
+
+What makes this phrase particularly effective is its use of hyperbole - the obvious impossibility of literally trading limbs for goods makes the point about high costs in a memorable way. It's more impactful than simply saying something is "very expensive" or "overpriced."
+
+Interestingly, the phrase often comes with a hint of judgment. When someone says something "costs an arm and a leg," they're usually suggesting that the price is not just high, but perhaps unreasonably so. It's a way of commenting on both the cost and the value proposition of whatever is being discussed.
+
+### Similar Expressions
+- "It costs a fortune" - More straightforward, less colorful
+- "It costs the earth" - British variant, similar meaning
+- "It costs a king's ransom" - Historical reference, same idea
+
+The key difference is that "costs an arm and a leg" creates a more visceral image. After all, what could be more valuable than parts of your own body? 💰
+
+> Remember: While we might complain about things costing an arm and a leg, at least we're speaking figuratively - unlike those portrait painters' clients who really did pay extra for each limb!
+    `,
+    date: "2025-07-27",
+    readTime: "6 min read",
+    author: "Luke Nam"
   }
 ];
