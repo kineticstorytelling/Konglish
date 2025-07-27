@@ -73,40 +73,6 @@ The key difference is that "hit the nail on the head" specifically emphasizes th
   },
   {
     id: 2,
-    title: "Common Korean Phrases for Beginners",
-    excerpt: "Essential phrases you need to know when starting your Korean language journey.",
-    content: `
-# Common Korean Phrases for Beginners
-
-When starting to learn Korean, it's essential to know some basic phrases. 
-These will help you navigate daily conversations and show respect for the language and culture.
-
-## Essential Phrases
-
-| Korean | Pronunciation | Meaning |
-|--------|--------------|----------|
-| 안녕하세요 | Annyeonghaseyo | Hello |
-| 감사합니다 | Gamsahamnida | Thank you |
-| 네 | Ne | Yes |
-| 아니요 | Aniyo | No |
-| 실례합니다 | Sillyehamnida | Excuse me |
-
-### When to Use These Phrases
-
-- **안녕하세요** - Use this as a formal greeting in most situations
-- **감사합니다** - A polite way to say thank you
-- **네/아니요** - Basic yes/no responses
-- **실례합니다** - When you need to excuse yourself or get someone's attention
-
-> Pro tip: Always err on the side of being more formal when unsure!
-    `,
-    date: "2024-12-05",
-    readTime: "8 min read",
-    slug: "common-korean-phrases",
-    author: "Konglish Team"
-  },
-  {
-    id: 3,
     title: "Korean Culture and Language",
     excerpt: "Understanding the deep connection between Korean culture and its language.",
     content: `
@@ -153,7 +119,7 @@ formal vs informal speech.
     author: "Luke Nam"
   },
   {
-    id: 4,
+    id: 3,
     title: "Cut Me Some Slack",
     excerpt: "The nautical origins and modern usage of this forgiving phrase.",
     content: `
@@ -194,10 +160,10 @@ Sometimes, we even need to remember to cut ourselves some slack ✨. In a world 
     author: "Luke Nam"
   },
   {
-   id: 5,
+   id: 4,
    title: "Bit off more than I can chew and Eyes bigger than your stomach",
    excerpt: "explanation and examples of popular American idioms",
-   slug: "bite-off-more-than-you-can-chew",
+   slug: "bit-off-more-than-i-can-chew",
    content: `
 
 Hi, I'm Luke, I am the creator of the website [Konglish.org](https://konglish.org).
@@ -288,7 +254,7 @@ const example = "Hello World";
     author: "Luke Nam"
   },
   {
-    id: 6,
+    id: 5,
     title: "Cost an Arm and a Leg",
     excerpt: "The fascinating history and modern usage of this expensive expression.",
     slug: "cost-an-arm-and-leg",
