@@ -197,6 +197,7 @@ Sometimes, we even need to remember to cut ourselves some slack ✨. In a world 
    id: 5,
    title: "Bit off more than I can chew and Eyes bigger than your stomach",
    excerpt: "explanation and examples of popular American idioms",
+   slug: "bite-off-more-than-you-can-chew",
    content: `
 
 Hi, I'm Luke, I am the creator of the website [Konglish.org](https://konglish.org).
@@ -282,9 +283,8 @@ const example = "Hello World";
 \`\`\`
 
    `,
-   date: "2024-12-13",  // Today's date
-   readTime: "X min read",
-   slug: "your-title-here",  // URL-friendly version of your title
-   author: "Luke Nam"
-}
+    date: "2025-07-27",
+    readTime: "8 min read",
+    author: "Luke Nam"
+  }
 ];
