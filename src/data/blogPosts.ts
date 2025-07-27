@@ -165,13 +165,7 @@ When someone asks you to "cut them some slack," they're asking for leniency or t
 
 Imagine yourself aboard a majestic sailing vessel, where ropes and sails dance with the wind. Among the sailors' many tasks was the careful management of these ropes, particularly the need to adjust their tension. When a rope was too tight, they would "cut some slack" - literally giving more length to the line, releasing the tension that pulled too hard.
 
-### Historical Journey
-- **Origin**: Naval sailing ships, where rope management was crucial
-- **Original Meaning**: Physically loosening a rope's tension
-- **Evolution**: From literal rope adjustment to metaphorical understanding
-- **Timeline**: Became common in everyday speech by mid-20th century
-
-This physical act of loosening a rope to make things easier became a perfect metaphor for showing leniency in our daily lives. Just as a tight rope can strain and potentially break, too much pressure on people can lead to stress and burnout.
+This physical act of loosening a rope to make things easier became a perfect metaphor for showing leniency in our daily lives. Just as a tight rope can strain and potentially break, too much pressure on people can lead to stress and burnout. From its origins in naval sailing ships, where rope management was crucial for safety and efficiency, the phrase gradually evolved from literal rope adjustments to a metaphor for understanding and flexibility, becoming common in everyday speech by the mid-20th century.
 
 ## The Art of Cutting Slack
 
