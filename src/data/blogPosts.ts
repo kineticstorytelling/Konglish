@@ -12,51 +12,67 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: 1,
-    title: "Getting Started with Korean",
-    excerpt: "Learn the basics of Korean language and writing system.",
+    title: "Hit the Nail on the Head",
+    excerpt: "Exploring the meaning and usage of this precise English idiom.",
     content: `
-# Getting Started with Korean
+# Hit the Nail on the Head
 
-Learning Korean can be an exciting journey. The Korean alphabet, known as Hangul, 
-is actually quite logical and can be learned in a matter of hours. However, mastering 
-the language takes dedication and practice.
+When someone says you've "hit the nail on the head," they're telling you that you've gotten something exactly right. This idiom comes from the literal action of striking a nail perfectly with a hammer - a satisfying moment of precision and accuracy.
 
-## Getting Started Tips
+## Understanding the Phrase
 
-1. **Learn Hangul First**
-   - Start with consonants
-   - Then learn vowels
-   - Practice writing combinations
+### What it Means
+- Being completely correct
+- Making an exact observation
+- Identifying the core issue perfectly
+- Getting straight to the point
 
-2. **Practice Pronunciation**
-   - Use YouTube tutorials
-   - Record yourself speaking
-   - Compare with native speakers
+### When to Use It
+1. **In Discussions**
+   - When someone makes an insightful point
+   - During problem-solving sessions
+   - After a precise analysis
 
-3. **Basic Phrases**
-   - Focus on everyday expressions
-   - Learn proper pronunciation
-   - Practice with native speakers
+2. **In Problem-Solving**
+   - When the root cause is found
+   - When a solution fits perfectly
+   - During breakthrough moments
 
-4. **Immerse Yourself**
-   - Watch Korean dramas
-   - Listen to K-pop
-   - Try Korean podcasts
+### Visual Metaphor
+Imagine a carpenter with perfect aim, striking a nail exactly on its head (🔨 *Graphic: hammer hitting nail*). One precise hit, and the nail goes straight in. No bent nails, no damaged wood - just perfect execution.
 
-5. **Regular Practice**
-   - Set daily study goals
-   - Use language learning apps
-   - Join language exchange groups
+---
 
-> Remember: Consistency is key when learning any new language!
+### Examples of "hit the nail on the head":
+- "Your analysis of the company's problems really hit the nail on the head."
+- "When Sarah said we need better communication, she hit the nail on the head."
+- "You hit the nail on the head with that observation about the project timeline."
+
+---
+
+### Similar Phrases:
+- **"Spot on"** - Another way to say something is exactly right
+- **"Bulls-eye"** - Like hitting the center of a target
+- **"Right on the money"** - Perfectly accurate
+
+The key difference is that "hit the nail on the head" specifically emphasizes the precision and accuracy of an observation or statement, while also suggesting a sense of finality and resolution. When you hit a nail properly, the job is done right. (🎯 *Graphic: target with arrow in bullseye*)
+
+---
+
+### Examples in Different Contexts:
+- **In Business**: "The consultant hit the nail on the head when she identified our workflow issues."
+- **In Relationships**: "You hit the nail on the head - we do need to communicate better."
+- **In Problem Solving**: "That solution hits the nail on the head perfectly."
+
+> Remember: This phrase is all about precision and accuracy. Use it when someone gets something exactly right!
     `,
-    date: "2024-12-01",
-    readTime: "5 min read",
-    slug: "getting-started-with-korean",
+    date: "2025-07-27",
+    readTime: "7 min read",
+    slug: "hit-the-nail-on-the-head",
     author: "Konglish Team"
   },
   {
-    id: 2,
+    id: 1,
     title: "Common Korean Phrases for Beginners",
     excerpt: "Essential phrases you need to know when starting your Korean language journey.",
     content: `
@@ -90,7 +106,7 @@ These will help you navigate daily conversations and show respect for the langua
     author: "Konglish Team"
   },
   {
-    id: 3,
+    id: 2,
     title: "Korean Culture and Language",
     excerpt: "Understanding the deep connection between Korean culture and its language.",
     content: `
