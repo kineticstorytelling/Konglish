@@ -39,7 +39,7 @@ When someone says you've "hit the nail on the head," they're telling you that yo
    - During breakthrough moments
 
 ### Visual Metaphor
-Imagine a carpenter with perfect aim, striking a nail exactly on its head (🔨 *Graphic: hammer hitting nail*). One precise hit, and the nail goes straight in. No bent nails, no damaged wood - just perfect execution.
+Imagine a carpenter with perfect aim, striking a nail exactly on its head 🔨. One precise hit, and the nail goes straight in. No bent nails, no damaged wood - just perfect execution.
 
 ---
 
@@ -55,7 +55,7 @@ Imagine a carpenter with perfect aim, striking a nail exactly on its head (🔨 
 - **"Bulls-eye"** - Like hitting the center of a target
 - **"Right on the money"** - Perfectly accurate
 
-The key difference is that "hit the nail on the head" specifically emphasizes the precision and accuracy of an observation or statement, while also suggesting a sense of finality and resolution. When you hit a nail properly, the job is done right. (🎯 *Graphic: target with arrow in bullseye*)
+The key difference is that "hit the nail on the head" specifically emphasizes the precision and accuracy of an observation or statement, while also suggesting a sense of finality and resolution. When you hit a nail properly, the job is done right. 🎯
 
 ---
 
@@ -72,7 +72,7 @@ The key difference is that "hit the nail on the head" specifically emphasizes th
     author: "Konglish Team"
   },
   {
-    id: 1,
+    id: 2,
     title: "Common Korean Phrases for Beginners",
     excerpt: "Essential phrases you need to know when starting your Korean language journey.",
     content: `
@@ -106,7 +106,7 @@ These will help you navigate daily conversations and show respect for the langua
     author: "Konglish Team"
   },
   {
-    id: 2,
+    id: 3,
     title: "Korean Culture and Language",
     excerpt: "Understanding the deep connection between Korean culture and its language.",
     content: `
@@ -179,11 +179,11 @@ You grab the burger and take a huge bite. It's such a big bite that your mouth i
 ---
 
 ### Where the phrase comes from:
-When children were eager to eat and took large mouthfuls of food that they struggled to swallow, adults would tell them to slow down and take their time. (👶 *child with a large mouthful of food*)
+When children were eager to eat and took large mouthfuls of food that they struggled to swallow, adults would tell them to slow down and take their time. 👶
 
-This idea applies to decisions we make in life. When you try to do too much or make promises you can’t keep, you’re **biting off more than you can chew**. (📊 *Graphic: person surrounded by papers, looking confused*)
+This idea applies to decisions we make in life. When you try to do too much or make promises you can’t keep, you’re **biting off more than you can chew**. 📊
 
-You’re doing more than you have the time and energy for, which can lead to failing to finish what you set out to do or doing your work poorly. (📉 *Graphic: example of poor work*)
+You’re doing more than you have the time and energy for, which can lead to failing to finish what you set out to do or doing your work poorly. 📉
 
 ---
 
@@ -197,7 +197,7 @@ You’re doing more than you have the time and energy for, which can lead to fai
 ### A similar phrase: **"Your eyes are bigger than your stomach"**
 This phrase also means wanting more than you can handle. For example, when someone is really hungry, they take more food than they can actually eat. 
 
-The difference is that this phrase refers to taking more than you can **eat**, not more than you can **chew**. Instead of stuffing one hamburger into your mouth (🍔 *Graphic: burger eating*), it’s about having a plate of hamburgers that you won’t be able to finish because you’re full. (🍔🍔🍔 *Graphic: large amount of burgers, maybe Matt Stonie*)
+The difference is that this phrase refers to taking more than you can **eat**, not more than you can **chew**. Instead of stuffing one hamburger into your mouth 🍔, it’s about having a plate of hamburgers that you won’t be able to finish because you’re full. 🍔🍔🍔
 
 Literally, your eyes (desire) are bigger than your stomach (capacity). While this isn’t physically possible, the image is vivid.
 
