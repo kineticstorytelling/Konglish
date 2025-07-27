@@ -165,7 +165,13 @@ When someone asks you to "cut them some slack," they're asking for leniency or t
 
 Imagine yourself aboard a majestic sailing vessel, where ropes and sails dance with the wind. Among the sailors' many tasks was the careful management of these ropes, particularly the need to adjust their tension. When a rope was too tight, they would "cut some slack" - literally giving more length to the line, releasing the tension that pulled too hard.
 
-This physical act of loosening a rope to make things easier became a perfect metaphor for showing leniency in our daily lives. Just as a tight rope can strain and potentially break, too much pressure on people can lead to stress and burnout. The phrase gradually made its way from ship decks to everyday speech, becoming common by the mid-20th century.
+### Historical Journey
+- **Origin**: Naval sailing ships, where rope management was crucial
+- **Original Meaning**: Physically loosening a rope's tension
+- **Evolution**: From literal rope adjustment to metaphorical understanding
+- **Timeline**: Became common in everyday speech by mid-20th century
+
+This physical act of loosening a rope to make things easier became a perfect metaphor for showing leniency in our daily lives. Just as a tight rope can strain and potentially break, too much pressure on people can lead to stress and burnout.
 
 ## The Art of Cutting Slack
 
@@ -175,9 +181,14 @@ Or consider someone going through a difficult time: "She's going through a tough
 
 ## Finding the Right Words
 
-While there are similar phrases like "give me a break" or "go easy on me," "cut some slack" carries a unique tone. It's more diplomatic than the potentially confrontational "give me a break," yet more assertive than the pleading "go easy on me." When you ask someone to cut you some slack, you're not asking for a complete pass on responsibility - you're requesting a temporary easing of pressure.
+While there are similar phrases like "give me a break" or "go easy on me," "cut some slack" carries a unique tone. It's more diplomatic than the potentially confrontational "give me a break," yet more assertive than the pleading "go easy on me."
 
-This phrase works beautifully in various situations. In a business meeting: "This is my first presentation - please cut me some slack." In language learning: "I'm still learning English - cut me some slack on my pronunciation." Even in personal relationships: "I forgot our monthiversary - cut me some slack, I've been really busy."
+### Common Usage Scenarios
+- **At Work**: "This is my first presentation - please cut me some slack"
+- **In Learning**: "I'm still learning English - cut me some slack on my pronunciation"
+- **In Relationships**: "I forgot our monthiversary - cut me some slack, I've been really busy"
+
+When you ask someone to cut you some slack, you're not asking for a complete pass on responsibility - you're requesting a temporary easing of pressure.
 
 Sometimes, we even need to remember to cut ourselves some slack ✨. In a world that often demands perfection, it's important to remember that everyone needs a little flexibility sometimes.
 
@@ -251,7 +262,7 @@ This phrase isn’t as common, but you still hear it occasionally.
 ---
 
 ## Wrapping Up
-I hope this video helped you understand the phrases **"bite off more than you can chew"** and **"your eyes are bigger than your stomach"**. If you’d like to learn more, I wrote an entire article on this topic. The link is in the description and [here](#).
+I hope this article helped you understand the phrases **"bite off more than you can chew"** and **"your eyes are bigger than your stomach"**. If you’d like to learn more, I wrote an entire article on this topic. The link is in the description and [here](#).
 
 ---
 
@@ -260,13 +271,12 @@ This is an ongoing series where I explain American sayings and phrases. I also h
 - Reactions to Korean English in popular media
 - Explanations of the difficulties Koreans face with English
 
-If you’d like to see more content like this, **subscribe**! If not, eh, feel free to ignore this message. It’s all good in this neck of the woods. 
 
 I’m Luke, and I’ll see you next time. Oh, and please watch the outro if you’d like to learn about tutoring opportunities. Bye! 👋
 
 ---
 
-### Did you enjoy this video?
+### Did you enjoy this article?
 Would you like to improve your English language or speaking skills? I’d be happy to help! I offer **1-on-1 tutoring sessions** as well as **group sessions online**. No matter where you are in the world, I can help. 
 
 Contact info is on my website: [Konglish.org](https://konglish.org). The link is also below. I look forward to speaking with you!
