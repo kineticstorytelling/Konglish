@@ -11,6 +11,71 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 3,
+    title: "Every Cloud Has a Silver Lining",
+    excerpt: "Discover the hopeful message behind this weather-inspired idiom.",
+    content: `# Every Cloud Has a Silver Lining ☁️✨
+
+When life gets stormy, remember that "every cloud has a silver lining" - a beautiful metaphor that reminds us to find hope in difficult situations.
+
+## The Origin Story ⚡
+
+This poetic phrase has its roots in atmospheric optics and was popularized by John Milton in his 1634 masque "Comus." Milton wrote: "Was I deceived, or did a sable cloud / Turn forth her silver lining on the night?" The observation comes from the natural phenomenon where the sun's rays illuminate the edges of dark storm clouds, creating a brilliant silver border - a promise of light even in darkness.
+
+## Understanding the Metaphor 🌅
+
+Just as storm clouds may appear dark and threatening but have brilliant silver edges when sunlight hits them, difficult situations often contain hidden benefits or opportunities. This metaphor teaches us to maintain optimism and look for positive aspects in challenging times.
+
+### Key Elements:
+- The cloud represents difficulties or problems
+- The silver lining represents hope or hidden benefits
+- The sun (implied) represents the source of positivity
+
+## Modern Usage Examples 🌟
+
+### In Personal Life:
+- "Losing my job was tough, but the silver lining was that it pushed me to start my own business"
+- "Breaking my leg was awful, but the silver lining was catching up on my reading"
+- "The flight cancellation led me to meet my future business partner in the airport"
+
+### In Professional Context:
+- "The project failed, but the silver lining is we learned valuable lessons for next time"
+- "The market downturn has a silver lining: we can buy assets at lower prices"
+- "Working remotely during the pandemic had a silver lining: better work-life balance"
+
+## Similar Expressions 💭
+- "Blessing in disguise"
+- "Look on the bright side"
+- "When one door closes, another opens"
+
+## Cultural Impact 🌍
+
+This idiom has become deeply embedded in various cultures, appearing in:
+- Self-help literature
+- Motivational speeches
+- Popular music and media
+- Therapeutic contexts
+
+While it's important to look for silver linings, remember that it's also okay to acknowledge difficulties. The phrase isn't about denying problems but about maintaining hope while working through them.
+
+> "The darkest clouds often bring the heaviest rains, but also set the stage for the most beautiful rainbows." 🌈
+
+## Using the Phrase
+
+This expression works best when:
+- Consoling someone through difficulties
+- Reflecting on past challenges
+- Maintaining optimism during tough times
+- Helping others find perspective
+
+Remember: Every cloud has a silver lining isn't just about passive optimism - it's about actively seeking opportunities in challenges! ✨
+    `,
+    date: "2025-07-28",
+    readTime: "6 min read",
+    slug: "every-cloud-has-a-silver-lining",
+    author: "Luke Nam"
+  },
+  {
     id: 1,
     title: "Hit the Nail on the Head",
     excerpt: "Exploring the meaning and usage of this precise English idiom.",
@@ -69,7 +134,7 @@ The key difference is that "hit the nail on the head" specifically emphasizes th
     date: "2025-07-27",
     readTime: "7 min read",
     slug: "hit-the-nail-on-the-head",
-    author: "Konglish Team"
+    author: "Luke Nam"
   },
   {
     id: 2,
