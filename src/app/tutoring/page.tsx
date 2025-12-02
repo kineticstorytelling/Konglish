@@ -18,8 +18,8 @@ export default function Tutoring() {
       ]
     },
     {
-      title: "Business English",
-      description: "Specialized lessons focusing on professional English skills including email writing, presentations, and business communication.",
+      title: "Business and Academic English",
+      description: "Specialized lessons focusing on professional and academic English skills including email writing, presentations, discourse and business communication.",
       price: "₩60,000 / hour",
       features: [
         "Email writing techniques",
