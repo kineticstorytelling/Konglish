@@ -29,9 +29,9 @@ export default function Tutoring() {
       ]
     },
     {
-      title: "TOEIC Preparation",
-      description: "Structured lessons to help you achieve your target TOEIC score with proven study strategies and practice tests.",
-      price: "₩55,000 / hour",
+      title: "TOEFL/IELTS/DUOLingo Preparation",
+      description: "Structured lessons to help you achieve your target TOEFL, IELTS, or DUOLingo score with proven study strategies and practice tests.",
+      price: "₩60,000 / hour",
       features: [
         "Test-taking strategies",
         "Practice tests and reviews",
